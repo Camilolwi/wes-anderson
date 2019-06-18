@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Este sitio posee toda la filmográfia de wes anderson: Peliculas y Teasers unicos."
+    />
+    <meta name="author" content="Wes Anderson" />
+
+    <title>Wes Anderson - life & Film</title>
+
+    <!-- Llamando a la libreria de Bootstrap -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Estilos Personalizados que no son clases nativas de bootstrap -->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- typo Personalizada para titles-->
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Yatra+One&display=swap');
+    </style>
+  </head>
+
+  <body>
+    <!-- Navigación principal, tener cuidado, en todos igual. -->
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand wes" href="index.html">Wes Anderson</a>
+
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <!--Sección 1 del menu : FILMOGRAFIA -->
+              <a
+                class="nav-link dropdown-toggle wes"
+                href="#"
+                id="navbarDropdownPortfolio"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Filmografía
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="navbarDropdownPortfolio"
+              >
+                <a class="dropdown-item wes" href="recorrido.html">Recorrido</a>
+                <a class="dropdown-item wes" href="colorimetria.html"
+                  >Colorimetria</a
+                >
+                <a class="dropdown-item wes" href="galeria.html">Galeria</a>
+              </div>
+            </li>
+            <!--Sección 2 del menu : PREMIOS -->
+            <li class="nav-item">
+              <a class="nav-link wes" href="premios.html">Premios</a>
+            </li>
+            <!--Sección 3 del menu : TRAILERS -->
+            <li class="nav-item">
+              <a class="nav-link wes" href="trailers.html">Trailers</a>
+            </li>
+            <!--Sección 4 del menu : FORMULARIO DE CONTACTO -->
+            <li class="nav-item">
+              <a class="nav-link wes" href="form_contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--FINALIZA EL MENU DE NAVEGACIÓN PRINCIPAL -->
+
+    <header>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slider # 1-->
+          <div
+            class="carousel-item active"
+            style="background-image: url('/assets/img/home1.png')"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>SIMETRIA Y ARTE</h3>
+              <p>Wes Anderson 1969 - 2019</p>
+            </div>
+          </div>
+          <!-- Slider # 2-->
+          <div
+            class="carousel-item"
+            style="background-image: url('/assets/img/home2.png')"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Realismo Magico</h3>
+              <p>Moonrise Kingdom - Mejor Film 2012</p>
+            </div>
+          </div>
+          <!-- Slider # 3-->
+          <div
+            class="carousel-item"
+            style="background-image: url('/assets/img/home3.png')"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>BIO & HISTORIA</h3>
+              <p>Mucho mas que simetria y frontalidad</p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+    <!-- CIERRE SLIDER  -->
+
+    <!-- Page Content -->
+    <div class="container">
+      <!-- Page Heading/Breadcrumbs -->
+      <h1 class="mt-4 mb-3">
+        COLORIMETRIA
+        <small>Estudiando el estilo de wes </small>
+      </h1>
+
+      <div class="row">
+        <div class="col-lg-12 portfolio-item">
+          <div class="card h-100">
+            <a href="#"
+              ><img class="card-img-top" src="/assets/img/premios.jpg" alt=""
+            /></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">PORQUE ESTOS COLORES</a>
+              </h4>
+              <p class="card-text">
+                Es importante entender que la fama de wes anderson es un pionero
+                que destaca en esta area por los princpilaes usos de colores
+                vivos y pasteles que lo que permitieron a lo largo del tiempo
+                fue reflejar sentimientos y estados de los personajes
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12 portfolio-item">
+          <div class="wrapper">
+            <ul>
+              <li><span></span>#1abc9c</li>
+              <li><span></span>#16a085</li>
+              <li><span></span>#2ecc71</li>
+              <li><span></span>#27ae60</li>
+              <li><span></span>#3498db</li>
+              <li><span></span>#2980b9</li>
+              <li><span></span>#9b59b6</li>
+              <li><span></span>#8e44ad</li>
+              <li><span></span>#34495e</li>
+              <li><span></span>#2c3e50</li>
+              <li><span></span>#f1c40f</li>
+              <li><span></span>#f39c12</li>
+              <li><span></span>#e67e22</li>
+              <li><span></span>#d35400</li>
+              <li><span></span>#e74c3c</li>
+              <li><span></span>#c0392b</li>
+              <li><span></span>#ecf0f1</li>
+              <li><span></span>#bdc3c7</li>
+              <li><span></span>#95a5a6</li>
+              <li><span></span>#7f8c8d</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          Copyright &copy; Camilo Rodríguez 2019
+        </p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

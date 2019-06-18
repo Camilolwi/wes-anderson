@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Este sitio posee toda la filmográfia de wes anderson: Peliculas y Teasers unicos."
+    />
+    <meta name="author" content="Wes Anderson" />
+
+    <title>Wes Anderson - life & Film</title>
+
+    <!-- Llamando a la libreria de Bootstrap -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Estilos Personalizados que no son clases nativas de bootstrap -->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- typo Personalizada para titles-->
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Yatra+One&display=swap');
+    </style>
+  </head>
+
+  <body>
+    <!-- Navigación principal, tener cuidado, en todos igual. -->
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand wes" href="index.html">Wes Anderson</a>
+
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <!--Sección 1 del menu : FILMOGRAFIA -->
+              <a
+                class="nav-link dropdown-toggle wes"
+                href="#"
+                id="navbarDropdownPortfolio"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Filmografía
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="navbarDropdownPortfolio"
+              >
+                <a class="dropdown-item wes" href="recorrido.html">Recorrido</a>
+                <a class="dropdown-item wes" href="colorimetria.html"
+                  >Colorimetria</a
+                >
+                <a class="dropdown-item wes" href="galeria.html">Galeria</a>
+              </div>
+            </li>
+            <!--Sección 2 del menu : PREMIOS -->
+            <li class="nav-item">
+              <a class="nav-link wes" href="premios.html">Premios</a>
+            </li>
+            <!--Sección 3 del menu : TRAILERS -->
+            <li class="nav-item">
+              <a class="nav-link wes" href="trailers.html">Trailers</a>
+            </li>
+            <!--Sección 4 del menu : FORMULARIO DE CONTACTO -->
+            <li class="nav-item">
+              <a class="nav-link wes" href="form_contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--FINALIZA EL MENU DE NAVEGACIÓN PRINCIPAL -->
+
+    <header>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slider # 1-->
+          <div
+            class="carousel-item active"
+            style="background-image: url('/assets/img/home1.png')"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>SIMETRIA Y ARTE</h3>
+              <p>Wes Anderson 1969 - 2019</p>
+            </div>
+          </div>
+          <!-- Slider # 2-->
+          <div
+            class="carousel-item"
+            style="background-image: url('/assets/img/home2.png')"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Realismo Magico</h3>
+              <p>Moonrise Kingdom - Mejor Film 2012</p>
+            </div>
+          </div>
+          <!-- Slider # 3-->
+          <div
+            class="carousel-item"
+            style="background-image: url('/assets/img/home3.png')"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>BIO & HISTORIA</h3>
+              <p>Mucho mas que simetria y frontalidad</p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+    <!-- CIERRE SLIDER  -->
+
+    <!-- Contenido de la pagina principal  -->
+    <div class="container">
+      <!-- Page principal -->
+      <h1 class="mt-4 mb-3">
+        Trailers
+        <small>Los mejores teasers de wes anderson</small>
+      </h1>
+
+      <!-- COntenido intro  -->
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            class="img-fluid rounded mb-4"
+            src="http://placehold.it/750x450"
+            alt=""
+          />
+        </div>
+        <div class="col-lg-6">
+          <h2>Relatos cinefilos</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
+            voluptate nihil eum consectetur similique? Consectetur, quod,
+            incidunt, harum nisi dolores delectus reprehenderit voluptatem
+            perferendis dicta dolorem non blanditiis ex fugiat.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+            consequuntur, modi mollitia corporis ipsa voluptate corrupti eum
+            ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti
+            necessitatibus perspiciatis quis?
+          </p>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- Team Members -->
+      <h2>Videos destacados</h2>
+
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100 text-center">
+            <img
+              class="card-img-top"
+              src="http://placehold.it/750x450"
+              alt=""
+            />
+            <div class="card-body">
+              <h4 class="card-title">Teaser 0</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Possimus aut mollitia eum ipsum fugiat odio officiis odit.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#">info@wesanderson.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100 text-center">
+            <img
+              class="card-img-top"
+              src="http://placehold.it/750x450"
+              alt=""
+            />
+            <div class="card-body">
+              <h4 class="card-title">Teaser 1</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Possimus aut mollitia eum ipsum fugiat odio officiis odit.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#">info@wesanderson.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100 text-center">
+            <img
+              class="card-img-top"
+              src="http://placehold.it/750x450"
+              alt=""
+            />
+            <div class="card-body">
+              <h4 class="card-title">Teaser 2</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Possimus aut mollitia eum ipsum fugiat odio officiis odit.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#">info@wesanderson.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- Our Customers -->
+      <h2>Otros videos externos</h2>
+      <div class="row">
+        <div class="col-lg-2 col-sm-4 mb-4">
+          <img class="img-fluid" src="http://placehold.it/500x300" alt="" />
+        </div>
+        <div class="col-lg-2 col-sm-4 mb-4">
+          <img class="img-fluid" src="http://placehold.it/500x300" alt="" />
+        </div>
+        <div class="col-lg-2 col-sm-4 mb-4">
+          <img class="img-fluid" src="http://placehold.it/500x300" alt="" />
+        </div>
+        <div class="col-lg-2 col-sm-4 mb-4">
+          <img class="img-fluid" src="http://placehold.it/500x300" alt="" />
+        </div>
+        <div class="col-lg-2 col-sm-4 mb-4">
+          <img class="img-fluid" src="http://placehold.it/500x300" alt="" />
+        </div>
+        <div class="col-lg-2 col-sm-4 mb-4">
+          <img class="img-fluid" src="http://placehold.it/500x300" alt="" />
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          Copyright &copy; Your Website 2019
+        </p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
